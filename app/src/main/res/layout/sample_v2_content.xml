@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tekinarslan.material.sample.CustomScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/content_layout_scrollview"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:background="@color/material_blue_grey_800"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:background="?attr/colorPrimaryDark" />
+
+        <android.support.v7.internal.widget.TintCheckBox
+            android:id="@+id/tintcheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="128dp" />
+
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switchcompat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:layout_marginTop="120dp" />
+
+        <android.support.v7.internal.widget.TintEditText
+            android:id="@+id/tintedittxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sample EditText"
+            android:layout_marginTop="120dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <android.support.v7.internal.widget.TintRadioButton
+            android:id="@+id/tintradio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sample Text"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="120dp"
+            android:layout_centerHorizontal="true" />
+
+        <com.tekinarslan.material.sample.FloatingActionButton
+            android:id="@+id/fabButton"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="80dp"
+            android:textSize="24sp"/>
+
+
+        <com.tekinarslan.material.sample.ProgressBarCircular
+            android:id="@+id/progress"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:textSize="24sp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="120dp"
+            android:layout_centerHorizontal="true" />
+
+
+    </LinearLayout>
+
+
+</com.tekinarslan.material.sample.CustomScrollView>
